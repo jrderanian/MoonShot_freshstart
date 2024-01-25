@@ -19,6 +19,7 @@ struct ListLayoutView: View {
         List{
             ForEach(missions) { mission in
                 NavigationLink(value: mission) {
+                    // cleaned up this view by taking HStack out
                     ListModifierView(mission: mission)
                     //MissionView(mission: mission, astronauts: astronauts)
                 }
