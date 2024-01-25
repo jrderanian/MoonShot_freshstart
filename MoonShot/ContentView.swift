@@ -17,6 +17,7 @@ struct ContentView: View {
     ]
     
     // was a @State var but now the app remembers the state, another Paulism
+    //another comment
     @AppStorage("showingGrid") private var viewGrid = true
     
     //Paul never used the navigationPath for this project.
